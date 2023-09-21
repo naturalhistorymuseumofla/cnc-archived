@@ -1,0 +1,159 @@
+<?php
+/**
+ * Script to retrieve city results from participating CNC cities and properly format responses for
+ * dynamic collective results stored in WP transient 
+ */
+include('wp-load.php');
+  $urls = [
+    //"wp-content/uploads/2018/08/cnc_final_results_5_16_18.csv",
+    'http://conserve.ibotany.cn/API/OpenData.ashx?a=cnc2022statis',
+    'https://portal.biosmart.life/api/v1/region/data/109/8',
+    'https://portal.biosmart.life/api/v1/region/data/110/8',
+    'https://portal.biosmart.life/api/v1/region/data/112/8',
+    'https://portal.biosmart.life/api/v1/region/data/115/8',
+    'https://portal.biosmart.life/api/v1/region/data/118/8',
+    'https://portal.biosmart.life/api/v1/region/data/140/8',
+    'https://portal.biosmart.life/api/v1/region/data/120/8', 
+    'https://portal.biosmart.life/api/v1/region/data/122/8',
+    'https://portal.biosmart.life/api/v1/region/data/123/8',
+    'https://portal.biosmart.life/api/v1/region/data/121/8',
+    'https://portal.biosmart.life/api/v1/region/data/130/8',
+    'https://portal.biosmart.life/api/v1/region/data/132/8',
+    'https://portal.biosmart.life/api/v1/region/data/127/8',
+    'https://portal.biosmart.life/api/v1/region/data/125/8',
+    'https://portal.biosmart.life/api/v1/region/data/128/8',
+    'https://portal.biosmart.life/api/v1/region/data/126/8',
+    'https://portal.biosmart.life/api/v1/region/data/108/8',
+    'https://portal.biosmart.life/api/v1/region/data/119/8',
+    'https://portal.biosmart.life/api/v1/region/data/139/8',
+    'https://portal.biosmart.life/api/v1/region/data/141/8',
+    'https://portal.biosmart.life/api/v1/region/data/143/8',
+    'https://portal.biosmart.life/api/v1/region/data/155/8',
+    'https://portal.biosmart.life/api/v1/region/data/164/8',
+    'https://portal.biosmart.life/api/v1/region/data/163/8',
+    'https://portal.biosmart.life/api/v1/region/data/149/8',
+    'https://portal.biosmart.life/api/v1/region/data/161/8',
+    'https://natusfera.gbif.es/projects/1349.json',
+    'https://natusfera.gbif.es/projects/1353.json',
+    'https://natusfera.gbif.es/projects/1352.json',
+    'https://natusfera.gbif.es/projects/1350.json',
+    'https://old.observation.org/export/bioblitz_json.php?id=4245',
+    'https://old.observation.org/export/bioblitz_json.php?id=4246',
+    'https://old.observation.org/export/bioblitz_json.php?id=3409',
+    'https://old.observation.org/export/bioblitz_json.php?id=8926'
+  ];
+
+  $id = "city-nature-challenge-2022";
+
+  function fetch_city_results($urls) {
+    $results = [];
+    foreach ($urls as &$url) {
+      if (filter_var($url, FILTER_VALIDATE_URL)) {
+        $result = fetch_results($url);
+        if ($result) {
+          if (validate_response($result)) {
+            $results[] = $result;
+          }
+        }
+      } elseif (file_exists($url)) {
+        $lines = csvToArray($url);
+        foreach ($lines as &$line) {
+          $result = [
+            'title' => $line[0],
+            'observations' => intval($line[1]),
+            'species' => intval($line[2]),
+            'people' => intval($line[3]),
+          ];
+        }
+      } 
+    }
+    return $results;
+  }
+
+  function fetch_results($url) {
+    $api_response = wp_remote_get($url, ['sslverify' => false]);
+    //var_dump($api_response);
+    $result = json_decode(wp_remote_retrieve_body($api_response));
+    if ($result && !is_null($result) && !is_wp_error($result)) {
+      return $result;
+    } else {
+      return false;
+    }
+    
+  }
+
+  function validate_response($r) {
+    // Check if there is a valid response and if it has the required keys
+    if ($r && !is_null($r) && array_key_exists('observations',$r) && array_key_exists('people',$r) || array_key_exists('species',$r)) {
+      return $r;
+    } else {
+      return false;
+    }
+  }
+
+  function fetch_inat_results() {
+    global $id;
+    $results = fetch_results("https://api.inaturalist.org/v1/observations/umbrella_project_stats?project_id={$id}");
+    if ($results) {
+      $results = $results -> results;
+      $cleaned_results = [];
+      foreach ($results as &$result) {
+        $title = $result ->project->title;
+        $title = str_replace('City City Nature Challenge 2021: ', '', $title);
+        $cleaned_result = [
+          'title' => $title,
+          'people' => $result -> observers_count,
+          'observations' => $result -> species_count,
+          'species' => $result -> species_count
+        ];
+        $cleaned_results[] = $cleaned_result;
+      }
+      return $cleaned_results;
+    }
+  }
+
+  function fetch_inat_totals() {
+    global $id;
+    $totals = [
+      'observations' => fetch_results("https://api.inaturalist.org/v1/observations?project_id={$id}&per_page=0")->total_results,
+      'people' => fetch_results("https://api.inaturalist.org/v1/observations/observers?project_id={$id}&per_page=0")->total_results,
+      'species' => fetch_results("https://api.inaturalist.org/v1/observations/species_counts?project_id={$id}&per_page=0")->total_results
+    ];
+    return $totals;
+  }
+
+  $inat_results = fetch_inat_results();
+  $results = [
+    'totals' => fetch_inat_totals(),
+    'results' => array_merge(fetch_city_results($urls), $inat_results)
+  ];
+
+  $results = json_encode($results, JSON_UNESCAPED_SLASHES);
+  echo $results;
+  $city_results = get_transient('city_results');
+
+  if (false === $city_results) {
+    set_transient('city_results', $results );
+  } else {
+    if (!($city_results == $results)) {
+      set_transient('city_results', $results);
+    }
+  }
+
+  function csvToArray($csvFile){
+    $file_to_read = fopen($csvFile, 'r');
+    while (!feof($file_to_read) ) {
+        $lines[] = fgetcsv($file_to_read, 1000, ',');
+    }
+    fclose($file_to_read);
+    return $lines;
+  }
+
+  function generateUUID() {
+    return bin2hex(random_bytes(16));
+  }
+  
+ 
+
+?>
+

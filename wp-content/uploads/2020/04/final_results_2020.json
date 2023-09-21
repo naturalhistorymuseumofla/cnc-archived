@@ -1,0 +1,1466 @@
+[
+  {
+    "title": "Adelaide, South Australia, Australia",
+    "observations": "6,701",
+    "species": 1205,
+    "people": 188
+  },
+  {
+    "title": "Aguascalientes, Aguascalientes, México",
+    "observations": 159,
+    "species": 110,
+    "people": 27
+  },
+  {
+    "title": "Alachua County, Florida, USA",
+    "observations": 10287,
+    "species": 1773,
+    "people": 276
+  },
+  {
+    "title": "Albuquerque, New Mexico, USA",
+    "observations": 5020,
+    "species": 1013,
+    "people": 316
+  },
+  {
+    "title": "Alexandria, Virginia, USA",
+    "observations": 365,
+    "species": 213,
+    "people": 42
+  },
+  {
+    "title": "Amarillo, Texas, USA",
+    "observations": 1370,
+    "species": 409,
+    "people": 29
+  },
+  {
+    "title": "Ann Arbor, Michigan, USA",
+    "observations": 1723,
+    "species": 497,
+    "people": 99
+  },
+  {
+    "title": "Annapolis Valley, Nova Scotia, Canada",
+    "observations": 2225,
+    "species": 583,
+    "people": 61
+  },
+  {
+    "title": "Asheville (Western NC), North Carolina, USA",
+    "observations": 6498,
+    "species": 1392,
+    "people": 521
+  },
+  {
+    "title": "Atlanta, Georgia, USA",
+    "observations": 7215,
+    "species": 1392,
+    "people": 754
+  },
+  {
+    "title": "Auckland, Auckland, New Zealand",
+    "observations": 2218,
+    "species": 885,
+    "people": 211
+  },
+  {
+    "title": "Austin, Texas, USA",
+    "observations": 18213,
+    "species": 2505,
+    "people": 1165
+  },
+  {
+    "title": "Azuero (Herrera), Panamá",
+    "observations": 3515,
+    "species": 1125,
+    "people": 63
+  },
+  {
+    "title": "Baltimore, Maryland, USA",
+    "observations": 10961,
+    "species": 1501,
+    "people": 663
+  },
+  {
+    "title": "Banyoles, Catalonia, Spain",
+    "observations": 82,
+    "species": 30,
+    "people": 15
+  },
+  {
+    "title": "Barcelona, Catalonia, Spain",
+    "observations": 275,
+    "species": 126,
+    "people": 16
+  },
+  {
+    "title": "Bedford, New York, USA",
+    "observations": 1235,
+    "species": 448,
+    "people": 46
+  },
+  {
+    "title": "Birmingham & Black Country, Midlands, UK",
+    "observations": 16145,
+    "species": 1370,
+    "people": 276
+  },
+  {
+    "title": "Birminghham Metro Area, Alabama, USA",
+    "observations": 1756,
+    "species": 781,
+    "people": 196
+  },
+  {
+    "title": "Blacksburg, Virginia, USA",
+    "observations": 293,
+    "species": 178,
+    "people": 38
+  },
+  {
+    "title": "Bocas del Toro, Panamá",
+    "observations": 591,
+    "species": 332,
+    "people": 26
+  },
+  {
+    "title": "Bolzano, South Tyrol, Italy",
+    "observations": 3271,
+    "species": 934,
+    "people": 148
+  },
+  {
+    "title": "Boston, Massachusetts, USA",
+    "observations": 15249,
+    "species": 1765,
+    "people": 1013
+  },
+  {
+    "title": "Brasília, DF, Brazil",
+    "observations": 1036,
+    "species": 437,
+    "people": 58
+  },
+  {
+    "title": "Brighton & Lewes Downs Biosphere, South-east, UK",
+    "observations": 1926,
+    "species": 598,
+    "people": 111
+  },
+  {
+    "title": "Bristol & Bath, UK",
+    "observations": 8851,
+    "species": 1354,
+    "people": 539
+  },
+  {
+    "title": "Brno, Jihomoravský kraj, Czech Republic",
+    "observations": 2648,
+    "species": 614,
+    "people": 129
+  },
+  {
+    "title": "Cafayate, Salta, Argentina",
+    "observations": 0,
+    "species": 0,
+    "people": 0
+  },
+  {
+    "title": "Calgary Metropolitan Region (CMR), Alberta, Canada",
+    "observations": 5465,
+    "species": 755,
+    "people": 239
+  },
+  {
+    "title": "Cali, Valle del Cauca, Colombia",
+    "observations": 31,
+    "species": 22,
+    "people": 9
+  },
+  {
+    "title": "Cape Breton Regional Municipality, Nova Scotia, Canada",
+    "observations": 1327,
+    "species": 334,
+    "people": 28
+  },
+  {
+    "title": "Cape Town, Western Cape, South Africa",
+    "observations": 34147,
+    "species": 3263,
+    "people": 1029
+  },
+  {
+    "title": "Carmen de Patagones, Buenos Aires, Argentina",
+    "observations": 43,
+    "species": 29,
+    "people": 3
+  },
+  {
+    "title": "Catania, Sicilia, Italy",
+    "observations": 30,
+    "species": 0,
+    "people": 1
+  },
+  {
+    "title": "Central Taiwan, Taichung, Taiwan",
+    "observations": 4518,
+    "species": 1477,
+    "people": 183
+  },
+  {
+    "title": "Charlotte Metro, North Carolina, USA",
+    "observations": 1860,
+    "species": 742,
+    "people": 286
+  },
+  {
+    "title": "Charlottesville, Virginia, USA",
+    "observations": 1483,
+    "species": 550,
+    "people": 123
+  },
+  {
+    "title": "Charlottetown (Urban PEI), Prince Edward Island, Canada",
+    "observations": 182,
+    "species": 106,
+    "people": 22
+  },
+  {
+    "title": "Chattanooga, Tennessee, USA",
+    "observations": 3418,
+    "species": 1075,
+    "people": 250
+  },
+  {
+    "title": "Chiayi, Chiayi, Taiwan",
+    "observations": 11937,
+    "species": 1827,
+    "people": 133
+  },
+  {
+    "title": "Chicago, Illinois, USA",
+    "observations": 4299,
+    "species": 802,
+    "people": 552
+  },
+  {
+    "title": "Cisternino, Puglia, Italy",
+    "observations": 92,
+    "species": 34,
+    "people": 3
+  },
+  {
+    "title": "Ciudad Autónoma de Buenos Aires, Buenos Aires, Argentina",
+    "observations": 1488,
+    "species": 569,
+    "people": 118
+  },
+  {
+    "title": "Ciudad Victoria, Tamaulipas, México",
+    "observations": 26,
+    "species": 21,
+    "people": 6
+  },
+  {
+    "title": "Cleveland-Akron-Canton, Ohio, USA",
+    "observations": 6055,
+    "species": 1035,
+    "people": 491
+  },
+  {
+    "title": "Cocle, Panamá",
+    "observations": 1530,
+    "species": 678,
+    "people": 56
+  },
+  {
+    "title": "Colmenar Viejo, Madrid, Spain",
+    "observations": 3298,
+    "species": 453,
+    "people": 33
+  },
+  {
+    "title": "Colon, Panamá",
+    "observations": 3493,
+    "species": 1139,
+    "people": 109
+  },
+  {
+    "title": "Colorado Springs, Colorado, USA",
+    "observations": 3443,
+    "species": 717,
+    "people": 91
+  },
+  {
+    "title": "Concepción del Uruguay, Entre Ríos, Argentina",
+    "observations": 2,
+    "species": 2,
+    "people": 1
+  },
+  {
+    "title": "Constantine, Constantine, Algeria",
+    "observations": 835,
+    "species": 335,
+    "people": 6
+  },
+  {
+    "title": "Copenhagen, Copenhagen, Denmark",
+    "observations": 1649,
+    "species": 655,
+    "people": 83
+  },
+  {
+    "title": "Copertino, Puglia, Italy",
+    "observations": 90,
+    "species": 69,
+    "people": 1
+  },
+  {
+    "title": "Córdoba, Córdoba, Argentina",
+    "observations": 228,
+    "species": 144,
+    "people": 28
+  },
+  {
+    "title": "Cuautitlán Izcalli, Estado de México, México",
+    "observations": 14,
+    "species": 12,
+    "people": 6
+  },
+  {
+    "title": "Curitiba, Paraná, Brazil",
+    "observations": 2697,
+    "species": 779,
+    "people": 121
+  },
+  {
+    "title": "Dallas/Fort Worth (DFW), Texas, USA",
+    "observations": 33506,
+    "species": 2962,
+    "people": 1253
+  },
+  {
+    "title": "Darien, Panamá",
+    "observations": 1231,
+    "species": 606,
+    "people": 24
+  },
+  {
+    "title": "Davao City, Davao del Sur, Philippines",
+    "observations": 3630,
+    "species": 968,
+    "people": 93
+  },
+  {
+    "title": "David City, Chiriquí, Panamá",
+    "observations": 7096,
+    "species": 1850,
+    "people": 180
+  },
+  {
+    "title": "Denver-Boulder Metro Area, Colorado, USA",
+    "observations": 5847,
+    "species": 838,
+    "people": 443
+  },
+  {
+    "title": "Dorila, La Pampa, Argentina",
+    "observations": 474,
+    "species": 250,
+    "people": 16
+  },
+  {
+    "title": "Durban, KwaZulu-Natal, South Africa",
+    "observations": 2066,
+    "species": 903,
+    "people": 52
+  },
+  {
+    "title": "El Paso, Texas, USA",
+    "observations": 1496,
+    "species": 489,
+    "people": 72
+  },
+  {
+    "title": "El Salvador, El Salvador",
+    "observations": 1140,
+    "species": 423,
+    "people": 95
+  },
+  {
+    "title": "Eldorado, Misiones, Argentina",
+    "observations": 360,
+    "species": 219,
+    "people": 3
+  },
+  {
+    "title": "Ensenada, Baja California, México",
+    "observations": 6649,
+    "species": 1124,
+    "people": 96
+  },
+  {
+    "title": "Eugene/Springfield, Oregon, USA",
+    "observations": 2824,
+    "species": 786,
+    "people": 144
+  },
+  {
+    "title": "Fairfield County, Connecticut, USA",
+    "observations": 3156,
+    "species": 808,
+    "people": 364
+  },
+  {
+    "title": "Fort Wayne, Indiana, USA",
+    "observations": 1963,
+    "species": 500,
+    "people": 117
+  },
+  {
+    "title": "Fukutsu, Fukuoka, Japan",
+    "observations": 455,
+    "species": 231,
+    "people": 17
+  },
+  {
+    "title": "Gaborone, SE Botswana, Botswana",
+    "observations": 1260,
+    "species": 486,
+    "people": 2
+  },
+  {
+    "title": "Gálvez, Santa Fé, Argentina",
+    "observations": 1,
+    "species": 1,
+    "people": 1
+  },
+  {
+    "title": "Garden Route, Western Cape, South Africa",
+    "observations": 17743,
+    "species": 2734,
+    "people": 315
+  },
+  {
+    "title": "Geelong, Victoria, Australia",
+    "observations": 5949,
+    "species": 1384,
+    "people": 135
+  },
+  {
+    "title": "General Villegas, Buenos Aires, Argentina",
+    "observations": 113,
+    "species": 74,
+    "people": 6
+  },
+  {
+    "title": "Gero, Gifu, Japan",
+    "observations": 126,
+    "species": 34,
+    "people": 3
+  },
+  {
+    "title": "Glasgow, Glasgow, UK",
+    "observations": 2086,
+    "species": 589,
+    "people": 106
+  },
+  {
+    "title": "Gran Área Metropolitana, San José-GAM, Costa Rica",
+    "observations": 2097,
+    "species": 687,
+    "people": 178
+  },
+  {
+    "title": "Graz, Styria, Austria",
+    "observations": 4398,
+    "species": 1350,
+    "people": 95
+  },
+  {
+    "title": "Greater Kansas City Metro Area, Missouri and Kansas, USA",
+    "observations": 677,
+    "species": 348,
+    "people": 123
+  },
+  {
+    "title": "Greater Manchester, North West, UK",
+    "observations": 4740,
+    "species": 832,
+    "people": 221
+  },
+  {
+    "title": "Greater Philadelphia Area, Pennsylvania, USA",
+    "observations": 23675,
+    "species": 2032,
+    "people": 820
+  },
+  {
+    "title": "Greater Richmond Region, Virginia, USA",
+    "observations": 1443,
+    "species": 573,
+    "people": 160
+  },
+  {
+    "title": "Greater Saint John, New Brunswick, Canada",
+    "observations": 500,
+    "species": 228,
+    "people": 33
+  },
+  {
+    "title": "GTM Research Reserve Watershed, Florida, USA",
+    "observations": 601,
+    "species": 322,
+    "people": 47
+  },
+  {
+    "title": "Guadalajara, Jalisco, México",
+    "observations": 134,
+    "species": 101,
+    "people": 22
+  },
+  {
+    "title": "Gualeguaychú, Entre Ríos, Argentina",
+    "observations": 151,
+    "species": 104,
+    "people": 11
+  },
+  {
+    "title": "Guanajuato, Guanajuato, México",
+    "observations": 27,
+    "species": 19,
+    "people": 2
+  },
+  {
+    "title": "Guayaquil, Guayas, Ecuador",
+    "observations": 731,
+    "species": 331,
+    "people": 60
+  },
+  {
+    "title": "Guimarães, Braga, Portugal",
+    "observations": 181,
+    "species": 144,
+    "people": 55
+  },
+  {
+    "title": "Halifax Regional Municipality (HRM), Nova Scotia, Canada",
+    "observations": 4318,
+    "species": 766,
+    "people": 185
+  },
+  {
+    "title": "Honduras, Honduras",
+    "observations": 2214,
+    "species": 869,
+    "people": 189
+  },
+  {
+    "title": "Hong Kong SAR, Hong Kong SAR, China",
+    "observations": 17137,
+    "species": 3007,
+    "people": 460
+  },
+  {
+    "title": "Houston-Galveston, Texas, USA",
+    "observations": 27624,
+    "species": 3359,
+    "people": 1265
+  },
+  {
+    "title": "Indianapolis, Indiana, USA",
+    "observations": 4541,
+    "species": 948,
+    "people": 344
+  },
+  {
+    "title": "Inland Empire, California, USA",
+    "observations": 10899,
+    "species": 1835,
+    "people": 485
+  },
+  {
+    "title": "Iskandar, Johor, Malaysia",
+    "observations": 579,
+    "species": 282,
+    "people": 23
+  },
+  {
+    "title": "Jastrebarsko, Zagrebačka županija, Croatia",
+    "observations": 8,
+    "species": 8,
+    "people": 1
+  },
+  {
+    "title": "Johnson City/Washington County, Tennessee, USA",
+    "observations": 1192,
+    "species": 462,
+    "people": 34
+  },
+  {
+    "title": "Jonesboro, Arkansas, USA",
+    "observations": 275,
+    "species": 166,
+    "people": 30
+  },
+  {
+    "title": "Kaohsiung, Kaohsiung, Taiwan",
+    "observations": 1023,
+    "species": 474,
+    "people": 68
+  },
+  {
+    "title": "Karlovac, Karlovačka županija, Croatia",
+    "observations": 185,
+    "species": 138,
+    "people": 3
+  },
+  {
+    "title": "Kisumu, Kenya",
+    "observations": 0,
+    "species": 0,
+    "people": 0
+  },
+  {
+    "title": "Kitsap County, Washington, USA",
+    "observations": 808,
+    "species": 311,
+    "people": 88
+  },
+  {
+    "title": "Knox County, Tennessee, USA",
+    "observations": 1484,
+    "species": 553,
+    "people": 91
+  },
+  {
+    "title": "Krems + Wachau, Lower Austria, Austria",
+    "observations": 841,
+    "species": 357,
+    "people": 30
+  },
+  {
+    "title": "Kursk, Kursk, Russia",
+    "observations": 1427,
+    "species": 580,
+    "people": 11
+  },
+  {
+    "title": "La Paz/El Alto, La Paz, Bolivia",
+    "observations": 3354,
+    "species": 635,
+    "people": 139
+  },
+  {
+    "title": "La Plata, Buenos Aires, Argentina",
+    "observations": 977,
+    "species": 386,
+    "people": 39
+  },
+  {
+    "title": "Lancashire, North West, UK",
+    "observations": 5331,
+    "species": 1044,
+    "people": 143
+  },
+  {
+    "title": "Lawrence, Kansas, USA",
+    "observations": 160,
+    "species": 94,
+    "people": 21
+  },
+  {
+    "title": "Lecce, Puglia, Italy",
+    "observations": 416,
+    "species": 236,
+    "people": 4
+  },
+  {
+    "title": "Lincoln, Nebraska, USA",
+    "observations": 1674,
+    "species": 508,
+    "people": 70
+  },
+  {
+    "title": "Lisbon, Portugal",
+    "observations": 404,
+    "species": 234,
+    "people": 51
+  },
+  {
+    "title": "Liverpool City Region, North-west, UK",
+    "observations": 5938,
+    "species": 991,
+    "people": 169
+  },
+  {
+    "title": "Logan, Utah, USA",
+    "observations": 263,
+    "species": 151,
+    "people": 27
+  },
+  {
+    "title": "Loja, Loja, Ecuador",
+    "observations": 1095,
+    "species": 364,
+    "people": 32
+  },
+  {
+    "title": "London, London, UK",
+    "observations": 5731,
+    "species": 1069,
+    "people": 537
+  },
+  {
+    "title": "Los Angeles County, California, USA",
+    "observations": 19134,
+    "species": 2494,
+    "people": 1568
+  },
+  {
+    "title": "Lower Rio Grande Valley, Texas, USA",
+    "observations": 7499,
+    "species": 1673,
+    "people": 150
+  },
+  {
+    "title": "Luquilo, Puerto Rico, USA",
+    "observations": 0,
+    "species": 0,
+    "people": 0
+  },
+  {
+    "title": "Luxembourg, Luxembourg, Luxembourg",
+    "observations": 5860,
+    "species": 1077,
+    "people": 423
+  },
+  {
+    "title": "Lviv, Lvivska, Ukraine",
+    "observations": 7,
+    "species": 7,
+    "people": 2
+  },
+  {
+    "title": "Maastricht, Limburg, Netherlands",
+    "observations": 1299,
+    "species": 429,
+    "people": 77
+  },
+  {
+    "title": "Macao SAR, Macao SAR, China",
+    "observations": 546,
+    "species": 307,
+    "people": 19
+  },
+  {
+    "title": "Madrid, Madrid, Spain",
+    "observations": 488,
+    "species": 19,
+    "people": 11
+  },
+  {
+    "title": "Managua, Managua, Nicaragua",
+    "observations": 901,
+    "species": 430,
+    "people": 42
+  },
+  {
+    "title": "Manaus, Amazonas, Brazil",
+    "observations": 1144,
+    "species": 456,
+    "people": 27
+  },
+  {
+    "title": "Manhattan, Kansas, USA",
+    "observations": 406,
+    "species": 203,
+    "people": 38
+  },
+  {
+    "title": "Manta, Manabi, Ecuador",
+    "observations": 135,
+    "species": 102,
+    "people": 8
+  },
+  {
+    "title": "Mar del Plata, Buenos Aires, Argentina",
+    "observations": 419,
+    "species": 186,
+    "people": 20
+  },
+  {
+    "title": "Massa Lubrense, Campania, Italy",
+    "observations": 24,
+    "species": 3,
+    "people": 2
+  },
+  {
+    "title": "Maui, Hawaii, USA",
+    "observations": 114,
+    "species": 91,
+    "people": 14
+  },
+  {
+    "title": "Mendocino County, California, USA",
+    "observations": 1407,
+    "species": 624,
+    "people": 106
+  },
+  {
+    "title": "Mendoza, Mendoza, Argentina",
+    "observations": 262,
+    "species": 157,
+    "people": 22
+  },
+  {
+    "title": "Minneapolis-St. Paul, Minnesota, USA",
+    "observations": 5550,
+    "species": 815,
+    "people": 583
+  },
+  {
+    "title": "Mombasa, Kenya",
+    "observations": 0,
+    "species": 0,
+    "people": 0
+  },
+  {
+    "title": "Montecarlo, Misiones, Argentina",
+    "observations": 96,
+    "species": 49,
+    "people": 4
+  },
+  {
+    "title": "Monterrey zona metropolitana, Nuevo Leon, México",
+    "observations": 1663,
+    "species": 646,
+    "people": 70
+  },
+  {
+    "title": "Montréal, Québec, Canada",
+    "observations": 640,
+    "species": 241,
+    "people": 96
+  },
+  {
+    "title": "Morelia, Michoacán, México",
+    "observations": 2398,
+    "species": 871,
+    "people": 52
+  },
+  {
+    "title": "Moscow, Moscow, Russia",
+    "observations": 5969,
+    "species": 637,
+    "people": 63
+  },
+  {
+    "title": "Nairobi, Kenya",
+    "observations": 19,
+    "species": 18,
+    "people": 10
+  },
+  {
+    "title": "Nanning, Guangxi, China",
+    "observations": 1123,
+    "species": 393,
+    "people": 28
+  },
+  {
+    "title": "Napoli, Campania, Italy",
+    "observations": 8,
+    "species": 8,
+    "people": 1
+  },
+  {
+    "title": "Narok, Kenya",
+    "observations": 1,
+    "species": 1,
+    "people": 1
+  },
+  {
+    "title": "Nashville, Tennessee, USA",
+    "observations": 2611,
+    "species": 805,
+    "people": 245
+  },
+  {
+    "title": "Nelson Mandela Bay, Eastern Cape, South Africa",
+    "observations": 701,
+    "species": 403,
+    "people": 23
+  },
+  {
+    "title": "New Orleans, Louisiana, USA",
+    "observations": 565,
+    "species": 355,
+    "people": 144
+  },
+  {
+    "title": "New York City, New York, USA",
+    "observations": 7545,
+    "species": 967,
+    "people": 364
+  },
+  {
+    "title": "North East England, North East England, UK",
+    "observations": 5281,
+    "species": 817,
+    "people": 177
+  },
+  {
+    "title": "North Taiwan, Taipei, Taiwan",
+    "observations": 11941,
+    "species": 2004,
+    "people": 426
+  },
+  {
+    "title": "Northern Colorado, Colorado, USA",
+    "observations": 922,
+    "species": 381,
+    "people": 122
+  },
+  {
+    "title": "Nottingham City, Midlands, UK",
+    "observations": 2707,
+    "species": 673,
+    "people": 104
+  },
+  {
+    "title": "Oahu, Hawaii, USA",
+    "observations": 447,
+    "species": 217,
+    "people": 40
+  },
+  {
+    "title": "Omaha, Nebraska, USA",
+    "observations": 1880,
+    "species": 549,
+    "people": 185
+  },
+  {
+    "title": "Orange County, California, USA",
+    "observations": 3921,
+    "species": 1078,
+    "people": 281
+  },
+  {
+    "title": "Ostuni, Puglia, Italy",
+    "observations": 430,
+    "species": 35,
+    "people": 5
+  },
+  {
+    "title": "Ōtautahi/Christchurch, Canterbury, New Zealand",
+    "observations": 7579,
+    "species": 1399,
+    "people": 157
+  },
+  {
+    "title": "Ōtepoti/Dunedin, Otago, New Zealand",
+    "observations": 2506,
+    "species": 832,
+    "people": 97
+  },
+  {
+    "title": "Ottawa-Gatineau (NCR), Ontario/Québec, Canada",
+    "observations": 2894,
+    "species": 687,
+    "people": 203
+  },
+  {
+    "title": "Palermo, Sicilia, Italy",
+    "observations": 4,
+    "species": 3,
+    "people": 3
+  },
+  {
+    "title": "Panamá, Panamá, Panamá",
+    "observations": 2347,
+    "species": 785,
+    "people": 118
+  },
+  {
+    "title": "Paso de Ovejas, Veracruz, México",
+    "observations": 181,
+    "species": 110,
+    "people": 3
+  },
+  {
+    "title": "Pereira, Risaralda, Colombia",
+    "observations": 180,
+    "species": 147,
+    "people": 5
+  },
+  {
+    "title": "Perú, Perú",
+    "observations": 1648,
+    "species": 534,
+    "people": 385
+  },
+  {
+    "title": "Pioneer Valley, Massachusetts, USA",
+    "observations": 1240,
+    "species": 438,
+    "people": 110
+  },
+  {
+    "title": "Pittsburgh Region, Pennsylvania, USA",
+    "observations": 8290,
+    "species": 1414,
+    "people": 487
+  },
+  {
+    "title": "Playa del Carmen-Tulum- Puerto Morelos (Riviera Maya), Quintana Roo, México",
+    "observations": 950,
+    "species": 385,
+    "people": 49
+  },
+  {
+    "title": "Port Aransas (Mustang Island), Texas, USA",
+    "observations": 771,
+    "species": 342,
+    "people": 37
+  },
+  {
+    "title": "Port Harcourt/Eagle Island, Rivers/Nigeria, Nigeria",
+    "observations": 0,
+    "species": 0,
+    "people": 0
+  },
+  {
+    "title": "Posadas, Misiones, Argentina",
+    "observations": 157,
+    "species": 92,
+    "people": 17
+  },
+  {
+    "title": "Prague, Czech Republic",
+    "observations": 9955,
+    "species": 1268,
+    "people": 404
+  },
+  {
+    "title": "Puebla, Puebla, México",
+    "observations": 922,
+    "species": 381,
+    "people": 41
+  },
+  {
+    "title": "Puerto Iguazú, Misiones, Argentina",
+    "observations": 492,
+    "species": 257,
+    "people": 20
+  },
+  {
+    "title": "Querétaro, Querétaro, México",
+    "observations": 323,
+    "species": 212,
+    "people": 19
+  },
+  {
+    "title": "Redlands City, Queensland, Australia",
+    "observations": 290,
+    "species": 174,
+    "people": 33
+  },
+  {
+    "title": "Riberalta, Vaca Diez/Beni, Bolivia",
+    "observations": 1621,
+    "species": 612,
+    "people": 31
+  },
+  {
+    "title": "Richmond, British Columbia, Canada",
+    "observations": 877,
+    "species": 354,
+    "people": 60
+  },
+  {
+    "title": "Rio Branco, Brazil",
+    "observations": 1250,
+    "species": 441,
+    "people": 18
+  },
+  {
+    "title": "Río Grande, Tierra del Fuego, Antártida e Islas del Atlántico Sur, Argentina",
+    "observations": 45,
+    "species": 37,
+    "people": 2
+  },
+  {
+    "title": "Rochester, New York, USA",
+    "observations": 295,
+    "species": 152,
+    "people": 57
+  },
+  {
+    "title": "Rock River Valley (Rockford), Illinois, USA",
+    "observations": 5577,
+    "species": 757,
+    "people": 144
+  },
+  {
+    "title": "Rosario, Santa Fé, Argentina",
+    "observations": 58,
+    "species": 41,
+    "people": 8
+  },
+  {
+    "title": "Sacramento, California, USA",
+    "observations": 8703,
+    "species": 1654,
+    "people": 742
+  },
+  {
+    "title": "Salta, Salta, Argentina",
+    "observations": 249,
+    "species": 130,
+    "people": 9
+  },
+  {
+    "title": "San Antonio de Areco, Buenos Aires, Argentina",
+    "observations": 0,
+    "species": 0,
+    "people": 0
+  },
+  {
+    "title": "San Antonio, Texas, USA",
+    "observations": 12472,
+    "species": 2032,
+    "people": 703
+  },
+  {
+    "title": "San Carlos de Bariloche, Río Negro, Argentina",
+    "observations": 252,
+    "species": 104,
+    "people": 21
+  },
+  {
+    "title": "San Cristóbal de las Casas, Chiapas, México",
+    "observations": 467,
+    "species": 286,
+    "people": 26
+  },
+  {
+    "title": "San Diego County, California, USA",
+    "observations": 17213,
+    "species": 2409,
+    "people": 920
+  },
+  {
+    "title": "San Francisco Bay Area, California, USA",
+    "observations": 31450,
+    "species": 2975,
+    "people": 2496
+  },
+  {
+    "title": "San Francisco de Macoris, Duarte, Republica Dominicana",
+    "observations": 1,
+    "species": 1,
+    "people": 1
+  },
+  {
+    "title": "San Luis Potosí, San Luis Potosí, México",
+    "observations": 340,
+    "species": 212,
+    "people": 14
+  },
+  {
+    "title": "San Miguel de Tucumán, Tucumán, Argentina",
+    "observations": 1377,
+    "species": 472,
+    "people": 66
+  },
+  {
+    "title": "San pedro Pochutla, Oaxaca, México",
+    "observations": 61,
+    "species": 49,
+    "people": 6
+  },
+  {
+    "title": "Santa Cruz de la Sierra, Santa Cruz, Bolivia",
+    "observations": 7173,
+    "species": 1347,
+    "people": 336
+  },
+  {
+    "title": "Santo Domingo, Santo Domingo, Republica Dominicana",
+    "observations": 56,
+    "species": 45,
+    "people": 10
+  },
+  {
+    "title": "São Paulo, Brazil",
+    "observations": 202,
+    "species": 101,
+    "people": 24
+  },
+  {
+    "title": "Savannah, Georgia, USA",
+    "observations": 166,
+    "species": 115,
+    "people": 46
+  },
+  {
+    "title": "Seattle-Tacoma Metropolitan Area, Washington, USA",
+    "observations": 5190,
+    "species": 1044,
+    "people": 565
+  },
+  {
+    "title": "Sevastopol, Sevastopol, Russia",
+    "observations": 4755,
+    "species": 992,
+    "people": 28
+  },
+  {
+    "title": "South Bend (Michiana), Indiana, USA",
+    "observations": 302,
+    "species": 144,
+    "people": 33
+  },
+  {
+    "title": "South Florida, Florida, USA",
+    "observations": 8430,
+    "species": 1743,
+    "people": 441
+  },
+  {
+    "title": "Southeastern Coastal NC, North Carolina, USA",
+    "observations": 4823,
+    "species": 1358,
+    "people": 324
+  },
+  {
+    "title": "Southwest Louisiana, Louisiana, USA",
+    "observations": 1061,
+    "species": 575,
+    "people": 53
+  },
+  {
+    "title": "Spartanburg County, South Carolina, USA",
+    "observations": 48,
+    "species": 38,
+    "people": 13
+  },
+  {
+    "title": "St. Louis, Missouri and Illnois, USA",
+    "observations": 7011,
+    "species": 1259,
+    "people": 646
+  },
+  {
+    "title": "Sucre, Chuquisaca, Bolivia",
+    "observations": 719,
+    "species": 269,
+    "people": 50
+  },
+  {
+    "title": "Surrey, BC/Metro Vancouver, Canada",
+    "observations": 2599,
+    "species": 570,
+    "people": 78
+  },
+  {
+    "title": "Sydney (Greater Sydney Area), New South Wales , Australia",
+    "observations": 3829,
+    "species": 1245,
+    "people": 164
+  },
+  {
+    "title": "Tainan City, Tainan, Taiwan",
+    "observations": 2072,
+    "species": 677,
+    "people": 116
+  },
+  {
+    "title": "Tandil, Buenos Aires, Argentina",
+    "observations": 61,
+    "species": 45,
+    "people": 6
+  },
+  {
+    "title": "Taoyuan-Hsinchu, Hsinchu, Taiwan",
+    "observations": 7908,
+    "species": 1690,
+    "people": 241
+  },
+  {
+    "title": "Taranto, Puglia, Italy",
+    "observations": 217,
+    "species": 84,
+    "people": 2
+  },
+  {
+    "title": "Tepic, Nayarit, México",
+    "observations": 0,
+    "species": 0,
+    "people": 0
+  },
+  {
+    "title": "Teton Communities, Wyoming, USA",
+    "observations": 273,
+    "species": 123,
+    "people": 14
+  },
+  {
+    "title": "The Hague, Netherlands",
+    "observations": 875,
+    "species": 501,
+    "people": 17
+  },
+  {
+    "title": "The Wasatch, Utah, USA",
+    "observations": 6868,
+    "species": 1047,
+    "people": 636
+  },
+  {
+    "title": "Tijuana, Baja California, México",
+    "observations": 420,
+    "species": 250,
+    "people": 50
+  },
+  {
+    "title": "Tlaxco, Tlaxcala, México",
+    "observations": 0,
+    "species": 0,
+    "people": 0
+  },
+  {
+    "title": "Tokyo, Tokyo, Japan",
+    "observations": 1138,
+    "species": 416,
+    "people": 56
+  },
+  {
+    "title": "Tolhuin, Tierra del Fuego, Antártida e Islas del Atlántico Sur, Argentina",
+    "observations": 0,
+    "species": 0,
+    "people": 0
+  },
+  {
+    "title": "Toluca, Estado de México, México",
+    "observations": 932,
+    "species": 334,
+    "people": 12
+  },
+  {
+    "title": "Torreon (Comarca Lagunera), Coahuila, México",
+    "observations": 1213,
+    "species": 461,
+    "people": 20
+  },
+  {
+    "title": "Trento, Trentino Alto Adige, Italy",
+    "observations": 330,
+    "species": 191,
+    "people": 22
+  },
+  {
+    "title": "Triangle Area, North Carolina, USA",
+    "observations": 18234,
+    "species": 2419,
+    "people": 984
+  },
+  {
+    "title": "Trieste, Friuli-Venezia Giulia, Italy",
+    "observations": 12,
+    "species": 1,
+    "people": 2
+  },
+  {
+    "title": "Trinitapoli, Puglia, Italy",
+    "observations": 62,
+    "species": 17,
+    "people": 3
+  },
+  {
+    "title": "Tshwane, Gauteng, South Africa",
+    "observations": 959,
+    "species": 537,
+    "people": 54
+  },
+  {
+    "title": "Tulsa Metro Area, Oklahoma, USA",
+    "observations": 1775,
+    "species": 720,
+    "people": 177
+  },
+  {
+    "title": "Tuxpan, Veracruz, México",
+    "observations": 121,
+    "species": 68,
+    "people": 3
+  },
+  {
+    "title": "Ushuaia, Tierra del Fuego, Antártida e Islas del Atlántico Sur, Argentina",
+    "observations": 161,
+    "species": 71,
+    "people": 6
+  },
+  {
+    "title": "Veraguas, Panamá",
+    "observations": 2332,
+    "species": 858,
+    "people": 135
+  },
+  {
+    "title": "Vienna, Vienna, Austria",
+    "observations": 5043,
+    "species": 1252,
+    "people": 111
+  },
+  {
+    "title": "Washington Metropolitan Area, District of Columbia/Virginia/Maryland/West Virginia, USA",
+    "observations": 27853,
+    "species": 2456,
+    "people": 1531
+  },
+  {
+    "title": "West Panamá, Panamá",
+    "observations": 1467,
+    "species": 576,
+    "people": 81
+  },
+  {
+    "title": "Westmorland County, New Brunswick, Canada",
+    "observations": 1886,
+    "species": 485,
+    "people": 50
+  },
+  {
+    "title": "Wilmington, Delaware, USA",
+    "observations": 1172,
+    "species": 497,
+    "people": 95
+  },
+  {
+    "title": "Youngstown (Mahoning River Valley), Ohio, USA",
+    "observations": 501,
+    "species": 246,
+    "people": 76
+  },
+  {
+    "title": "Zagreb, Grad Zagreb, Croatia",
+    "observations": 59,
+    "species": 52,
+    "people": 9
+  },
+  {
+    "title": "Zihuatanejo de Azueta, Guerrero, México",
+    "observations": 934,
+    "species": 244,
+    "people": 18
+  },
+  {
+    "title": "Zona Metropolitana Veracruz, Veracruz, México",
+    "observations": 1104,
+    "species": 348,
+    "people": 36
+  }
+]

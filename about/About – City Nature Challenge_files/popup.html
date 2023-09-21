@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)https://cdn.hypemarks.com/app/legacy/popup -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+
+    <script src="./jquery-1.11.1.min.js"></script>
+
+     <script src="./popup-modal.min.js"></script>
+
+      <link rel="stylesheet" type="text/css" href="./popup-modal.min.css" media="all">
+
+    <script type="text/template" id="popupModalTemplate">
+      <div id="popupModalStyleContainer"></div>
+    <div class="popup-modal-bg"></div>
+    <div style="width:0px; height: 0px; padding: 0; margin: 0; border: 0;" data-return=".post-share-open" class="screenreader-focus-guard" tabindex="0"></div>
+    
+    <div class="_71n7_modal {{#onlyshowImage}} _71n7_modal--tiktok {{/onlyshowImage}}">
+        <div aria-atomic="true" aria-live="polite" id="_71n7_description" style="width: 0; height: 0; padding: 0; margin: 0; overflow: hidden;"></div>
+        {{^is_display_theme}}
+          {{^edit_mode}}
+            <div class="_71n7_modal_close"><a href="#" role="button" aria-label="{{accessibility.modal.close}}"><i class="far fa-angle-down"></i><br><i class="far fa-angle-up"></i></a></div>
+          {{/edit_mode}}
+            <div class="_71n7_modal_right"><a href="#" role="button" aria-label="{{accessibility.modal.next}}"><i class="far fa-angle-right"></i></a></div>
+            <div class="_71n7_modal_left"><a href="#" role="button" aria-label="{{accessibility.modal.previous}}"><i class="far fa-angle-left"></i></a></div>
+        {{/is_display_theme}}
+    
+        <div class="_71n7_modal_content">
+            {{#image}}
+              <div class="_71n7_image_holder" {{^embed}}{{#image}}style="background-image: url('{{image}}')"{{/image}}{{/embed}} {{#onlyshowImage}}style="width: 100%"{{/onlyshowImage}}>
+                {{^embed}}<img src="{{image}}" class="_71n7_image" alt="{{alternative_text}}" style="visibility: hidden; width: 100%;"/>{{/embed}}
+              </div>
+            {{/image}}
+    
+            {{^onlyshowImage}}
+              <div class="_71n7_content_holder {{^image}}_71n7_content_holder_text_only{{/image}}">
+                <div class="attribution">
+                  <div class="_71n7_author">
+                    {{#show_author}}
+                      <a class="_71n7_author_name" {{#acct_url}} href="{{acct_url}}" {{/acct_url}} target="_blank">
+                        {{#acct_image}}<img src="{{acct_image}}" class="_71n7_author_image" alt="{{acct_name_full}} profile image" />{{/acct_image}}
+                        <p>
+                          <span class="author_name" aria-label="{{accessibility.post.name_label}}">{{acct_name_full}}{{^acct_name_full}}&nbsp;{{/acct_name_full}}</span>
+                          <span class="author_username" aria-label="{{accessibility.post.username_label}}">{{acct_username_full}}{{^acct_username_full}}&nbsp;{{/acct_username_full}}</span>
+                        </p>
+                      </a>
+                    {{/show_author}}
+                  </div>
+    
+                  {{^is_custom}}
+                    <a class="_71n7_social_icon {{#has_cta}}image-cta{{/has_cta}}" {{#is_twitter}}href="https://twitter.com" target="_blank"{{/is_twitter}} data-network="{{source_network}}" tabindex="-1">
+                      {{#is_facebook}}<i class="fab fa-facebook"></i>{{/is_facebook}}
+                      {{#is_flickr}}<i class="fab fa-flickr"></i>{{/is_flickr}}
+                      {{#is_instagram}}<i class="fab fa-instagram"></i>{{/is_instagram}}
+                      {{#is_linkedin}}<i class="fab fa-linkedin-in"></i>{{/is_linkedin}}
+                      {{#is_pinterest}}<i class="fab fa-pinterest"></i>{{/is_pinterest}}
+                      {{#is_rss}}<i class="fas fa-rss"></i>{{/is_rss}}
+                      {{#is_tumblr}}<i class="fab fa-tumblr"></i>{{/is_tumblr}}
+                      {{#is_twitter}}<i class="fab fa-twitter "></i>{{/is_twitter}}
+                      {{#is_youtube}}<i class="fab fa-youtube"></i>{{/is_youtube}}
+                    </a>
+                  {{/is_custom}}
+                </div>
+    
+                <div class="_71n7_title {{#rtl}}_71n7_rtl{{/rtl}} {{^acct_image}}_71n7_no_author{{/acct_image}} {{#modified_url}}has-url{{/modified_url}}" aria-label="{{accessibility.post.post_title}}" tabindex="0">
+                  <span>{{ title }}</span>
+                </div>
+    
+                {{#ecommerce_enabled}}
+                  {{#products.length}}
+                    <div class="products-summary">
+                      <h2>{{popup_product_header_text}}</h2>
+                      <span>({{products.length}} items)</span>
+                    </div>
+    
+                    <div class="products">
+                      {{#products}}
+                        <a class="product product-cta" {{#has_url}}href="{{url}}" target="_blank"{{/has_url}} data-product-id={{id}}>
+                          <div class="product-image">
+                            <div style="background-image:url('{{image_url}}')" role="img" aria-label="Picture of {{name}}"></div>
+                          </div>
+                          <h3 class="product-name">{{name}}</h3>
+                          {{#price}}<small class="product-price">{{price}} {{currency}}</small>{{/price}}
+                        </a>
+                      {{/products}}
+                    </div>
+                  {{/products.length}}
+                {{/ecommerce_enabled}}
+                    {{#has_cta}}
+                        <div class="cta-holder _71n7_cta portrait {{^cta_thumbnail}}no-img{{/cta_thumbnail}}">
+                                {{#ctas}}
+    
+                                    <div class="_71n7_cta portrait carousel-cell {{^cta_thumbnail}}no-img{{/cta_thumbnail}}">
+                                        {{#cta_thumbnail}}
+                                            <img src="{{cta_thumbnail}}" alt="{{cta_text}}">
+                                        {{/cta_thumbnail}}
+                                        <button class="_71n7_cta_button {{^cta_thumbnail}}no-img{{/cta_thumbnail}}">
+                                            <span data-url="{{cta_url}}">{{cta_text}}</span>
+                                            {{^cta_thumbnail}}
+                                                <i class="fas fa-chevron-right"/></i>
+                                            {{/cta_thumbnail}}
+    
+                                        </button>
+                                    </div>
+                                {{/ctas}}
+                        </div>
+                    {{/has_cta}}
+                <div class="time-and-share">
+                  <div class="_71n7_author_timeago {{#powered_by_tint}}powered-by-tint{{/powered_by_tint}}">
+                    <a {{#modified_url}}href="{{modified_url}}"{{/modified_url}} target="_blank" aria-label="{{accessibility.post.timeago}}">{{timeago}}</a>
+                  </div>
+    
+                  {{#powered_by_tint}}
+                    <div class="powered-by-tint-logo">
+                      <a href="https://www.tintup.com/?utm_campaign=powered_embed" target="_blank" aria-label="Powered by TINT">powered by TINT <img src="//cdn.hypemarks.com/assets/logos/tintlogosmall.png" alt="TINT logo"></a>
+                    </div>
+                  {{/powered_by_tint}}
+    
+                  {{^powered_by_tint}}
+                    {{^is_display_theme}}
+                      <div class="_71n7_modal_share">
+                        {{#is_twitter}}
+                          <a href="https://twitter.com/intent/tweet?in_reply_to={{tweet_post_id}}" aria-label="{{accessibility.post.twitter.reply}}" class="accentColor" onclick="return !window.open(this.href, 'Twitter', 'width=500,height=300')" target="blank"><i class="fas fa-reply"></i></a>
+                          <a href="https://twitter.com/intent/retweet?tweet_id={{tweet_post_id}}"  aria-label="{accessibility.post.twitter.retweet}}" class="accentColor" onclicaria-label="" k="return !window.open(this.href, 'Twitter', 'width=500,height=300')" target="blank"><i class="fas fa-retweet-alt"></i></a>
+                          <a href="https://twitter.com/intent/favorite?tweet_id={{tweet_post_id}}" aria-label="{accessibility.post.twitter.like}}" class="accentColor" onclick="return !window.open(this.href, 'Twitter', 'width=500,height=300')" target="blank"><i class="fas fa-heart"></i></a>
+                        {{/is_twitter}}
+                        {{{shareTooltip}}}
+                      </div>
+                    {{/is_display_theme}}
+                  {{/powered_by_tint}}
+                </div>
+              </div>
+            {{/onlyshowImage}}
+        </div>
+    </div>
+    
+    <div style="width:0px; height: 0px; padding: 0; margin: 0; border: 0;" data-return="._71n7_modal_close a" class="screenreader-focus-guard" tabindex="0"></div>
+    
+    </script>
+    <script type="text/template" id="shareTooltipTemplate">
+      {{#postSupportsSharing}}
+      <span class="share-options-menu" style="display: none;">
+          <ul class="share-options-menu-list">
+              {{#shareOptions}}
+                  <li>
+                      <a class="post-share-{{code}}-a" href="{{ url }}" onclick="tintAnalyticsClient.track('embed_post_shared', {tint_id: '{{tintId}}', post_id: '{{postId}}'.replaceAll('user_', ''), network: '{{name}}'});return !window.open(this.href, '{{name}}', 'width=665,height=300')" aria-label="Share on {{name}}. Opens in new window." target="_blank">
+                          <i class="{{icon}}"></i>
+                          <span class="network-name">{{name}}</span>
+                      </a>
+                  </li>
+              {{/shareOptions}}
+              <li style="width:0px; height: 0px; padding: 0; margin: 0;" class="share-menu-focus-guard" tabindex="0"></li>
+          </ul>
+      </span>
+    
+      <a class="post-share-open accent-color-hover" tabindex="0" role="button" aria-label="Share this post">
+          <i class="icon-hm-small fas fa-share-alt"></i>
+      </a>
+    {{/postSupportsSharing}}
+    
+    </script>
+    <script src="./tintAnalyticsProxy-bundle.js"></script>
+  </head>
+  <body class="pop-up-modal-body" role="dialog" aria-label="Post">
+
+<div></div></body></html>

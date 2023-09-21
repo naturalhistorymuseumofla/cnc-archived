@@ -1,0 +1,60 @@
+.bg-light {
+	background-color:rgba(255, 255, 255, 0) !important;
+	border-bottom: none !important;
+	/*
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+	*/
+}
+header#masthead {
+    box-shadow:none;
+}
+
+.bg-light-solid {
+	background-color:rgba(255, 255, 255, 1) !important;
+	border-bottom: 1px solid #eee;
+}
+.masthead-add-shadow {
+	box-shadow: 0 0.5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1) !important;
+} 
+
+.nav-green-bar {
+    padding-bottom: 0px;
+    margin-top: 0px;
+}
+
+#content.site-content {
+	padding-bottom:0px;
+}
+
+
+/* MOBILE DEFAULT SMALLEST */
+@media (min-width: 100px) {}
+
+/* HERO IMAGE MOBILE */
+@media (min-width: 576px) {}
+
+/* HERO IMAGE TABLET */
+@media (min-width: 768px) {}
+
+/* HERO IMAGE LARGE DESKTOP */
+@media (min-width: 992px) {}
+
+/* HERO IMAGE DESKTOP */
+@media (min-width: 1200px) {}
+
+/* HERO IMAGE XL DESKTOP */
+@media (min-width: 1500px) {}
+
+/* HERO IMAGE XL DESKTOP */
+@media (min-width: 1700px) {}
+
+@media (min-width: 1900px) {}
+
+
+
+
+
